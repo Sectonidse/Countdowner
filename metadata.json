@@ -1,0 +1,59 @@
+{
+    "uuid": "countdowner@secton",
+    "name": "Countdowner",
+    "description": "Count down time. On Desktop. secton.neocities.org",
+    "version": "1.0",
+    "author": "Secton",
+    "icon": "icon.png",
+    "prevent-decorations": true,
+    "settings": {
+        "customtext": {
+            "type": "entry",
+            "default": "New Year 2024",
+            "description": "Time left until..."
+        },
+        "customfinish": {
+            "type": "entry",
+            "default": "HAPPY NEW YEAR 2024!",
+            "description": "Text when timer finishes"
+        },
+	    "datetimeing": {
+            "type": "entry",
+            "default": "2024-01-01",
+            "description": "Enter a custom date (YYYY-MM-DD)"
+        },
+        "showseconds": {
+            "type": "checkbox",
+            "default": true,
+            "description": "Show seconds"
+        },
+        "head1": {
+            "type": "header",
+            "description": "Visual"
+        },
+        "backgroundcolor": {
+            "type": "colorchooser",
+            "default": "rgba(0,0,0,1)",
+            "description": "Background color",
+            "tooltip": "RGB or RGBA."
+        },
+        "textcolor1": {
+            "type": "colorchooser",
+            "default": "rgba(255,255,255,1)",
+            "description": "Top Text color",
+            "tooltip": "RGB or RGBA."
+        },
+        "textsize": {
+            "type": "scale",
+            "default": 20,
+            "min": 8,
+            "max": 48,
+            "step": 1,
+            "description": "Text Size"
+        },
+        "test1": {
+            "type": "calendar",
+            "description": "New Time"
+        }
+    }
+}
